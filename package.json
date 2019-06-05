@@ -1,0 +1,22 @@
+{
+  "name": "template-generator",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "repository": "git@github.com:lnwu/template-generator.git",
+  "author": "lnwu <wind2729@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "download-git-repo": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.4",
+    "typescript": "^3.5.1"
+  },
+  "bin": {
+    "template": "./lib/index.js"
+  }
+}

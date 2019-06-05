@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./lib",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src"
+  ]
+}
