@@ -1,5 +1,5 @@
 {
-  "name": "template-generator",
+  "name": "@lnwu/template-generator",
   "version": "0.0.0",
   "main": "lib/index.js",
   "repository": "git@github.com:lnwu/template-generator.git",
