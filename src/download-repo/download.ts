@@ -1,7 +1,7 @@
 import download from "download-git-repo"
 
-export const downRepo = (repo: string) => new Promise((resolve, reject) => {
-  download(repo, "tmp", (err: any) => {
+export const downRepo = (repo: string, targetPath: string) => new Promise((resolve, reject) => {
+  download(repo, targetPath, (err: any) => {
     if (err) {
       console.error("Download error", err)
       reject(err)
