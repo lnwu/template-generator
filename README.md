@@ -5,5 +5,5 @@ A template generator to easily setup project.
 
 ```bash
 yarn global add @lnwu/template-generator
-template create owner:repo
+template create owner/repo
 ```
