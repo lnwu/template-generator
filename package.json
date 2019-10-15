@@ -10,7 +10,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "download-git-repo": "^2.0.0"
+    "download-git-repo": "^3.0.2"
   },
   "devDependencies": {
     "@types/node": "*",
